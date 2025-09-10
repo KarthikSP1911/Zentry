@@ -1,12 +1,99 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🕹️ Zentry Frontend Project
 
-Currently, two official plugins are available:
+Zentry is a cinematic, interactive web experience built with **React**, **GSAP**, and **Tailwind CSS**, designed to showcase the future of gaming through a unified Play Economy. This frontend project blends immersive visuals, scroll-triggered animations, and modular components to deliver a rich metagame interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+### 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **GSAP Scroll Animations**  
+  Smooth, timeline-driven transitions using `ScrollTrigger` for immersive storytelling.
+
+- **Modular Components**  
+  Reusable UI blocks like `AnimatedTitle`, `BentoCard`, `BentoTilt`, and `Button` for scalable design.
+
+- **Tilt Interactivity**  
+  Mouse-driven 3D tilt effects for dynamic hover states.
+
+- **Video Backgrounds**  
+  Cinematic looping videos embedded in feature cards for visual depth.
+
+- **Responsive Navigation**  
+  Scroll-aware navbar with GSAP fade/slide transitions and audio toggle indicator.
+
+- **Semantic Typography**  
+  Emphasized titles using inline `<b>` tags and custom fonts for brand identity.
+
+---
+
+### 📁 Project Structure
+
+```
+Zentry/
+├── public/
+│   ├── img/               # Static images
+│   ├── videos/            # Feature background videos
+│   └── audio/             # Looping background audio
+├── src/
+│   ├── components/
+│   │   ├── AnimatedTitle.jsx
+│   │   ├── BentoTilt.jsx
+│   │   ├── BentoCard.jsx
+│   │   ├── Button.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Features.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   └── App.jsx
+├── tailwind.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+### 🧰 Tech Stack
+
+| Tool/Library       | Purpose                                 |
+|--------------------|------------------------------------------|
+| React              | Component-based UI architecture          |
+| GSAP + ScrollTrigger | Scroll animations and transitions     |
+| Tailwind CSS       | Utility-first styling and theming        |
+| React Icons        | Scalable vector icons                    |
+| react-use          | Scroll tracking and hooks                |
+| clsx               | Conditional class merging                |
+
+---
+
+### 🛠️ Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/KarthikSP1911/Zentry.git
+cd Zentry
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+---
+
+### 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+### 🙌 Acknowledgments
+
+Built with passion by [Karthik](https://github.com/KarthikSP1911), exploring the intersection of immersive UI, modular architecture, and semantic theming.
+
+---
+
+Would you like me to help generate badges, add deployment instructions, or write a short project pitch for your GitHub profile?
