@@ -4,6 +4,8 @@
 Zentry is a cinematic, interactive web experience built with **React**, **GSAP**, and **Tailwind CSS**, designed to showcase the future of gaming through a unified Play Economy. This frontend project blends immersive visuals, scroll-triggered animations, and modular components to deliver a rich metagame interface.
 
 ---
+### 🚀 Demo
+![Demo](zentry.gif)
 
 ### 🚀 Features
 
